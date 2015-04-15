@@ -1,3 +1,10 @@
+
+body{
+  background: url('https://ununsplash.imgix.net/photo-1428973085873-61a784626aad?fit=crop&fm=jpg&h=700&q=75&w=1050');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 img{
   height: 50px;
   width: 50px;
@@ -5,7 +12,7 @@ img{
 
 table{
   font-size: 1.75em;
-}
+ }
 
 table thead{
   border-bottom: 3px solid black;
@@ -17,11 +24,43 @@ form{
 
 h1{
   font-size: 3em;
+  background-color: rgb(194, 255, 173);
+  color:#291400;
+  border: 15px solid #1D3900;
+  border-radius: 5px;
+  margin-bottom: 0;
 }
+
+.header, .form-header{
+  padding-left: 0;
+  opacity: 0.6;
+ }
+
+.holds-table{
+  background-color: #E6FFE6;
+  opacity: 0.9;<D-r>
+}
+
 h2{
   font-size: 2.5em;
+  background-color: rgb(194, 255, 173);
+  color:#291400;
+  border: 15px solid #1D3900;
+  border-radius: 5px;
+  margin-bottom: 0;
+}
+
+.holds-add{
+  background-color: #E6FFE6;
+  opacity: 0.6;
+  padding-bottom: 10px;
+  border-radius: 5px;
 }
 
 button{
   float: right;
+}
+
+.header:hover, .form-header:hover, .holds-add:hover{
+  opacity: 1.0;
 }
