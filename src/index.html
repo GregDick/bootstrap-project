@@ -5,9 +5,67 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap Fun!</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.4/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/main.css">
   </head>
   <body>
-    <h1 style="color: red">Hi Everybody!</h1>
+    <div class="container">
+        <h1 class="col-md-4">Pet Store</h1>
+    </div>
+<!-- ============this is a table========= -->
+    <div class="container holds-table">
+      <table class="table table-hover">
+        <thead>
+          <tr>
+            <th>Photo</th>
+            <th>Name</th>
+            <th>Species</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><img src="http://i.imgur.com/F7Tr8kz.jpg" alt="Mr.Kitty" /></td>
+            <td>Giggles</td>
+            <td>Cat</td>
+            <td><input type="button" name="" id="" value="Get" class="btn btn-success btn-lg"/></td>
+          </tr>
+          <tr>
+            <td><img src="http://i.imgur.com/8E2bX.jpg" alt="Hello, this is dog" /></td>
+            <td>Wiggles</td>
+            <td>Dog</td>
+            <td><input type="button" name="" id="" value="Get" class="btn btn-success btn-lg"/></td>
+          </tr>
+          <tr>
+            <td><img src="http://i.imgur.com/uLNGLeu.jpg" alt="Nom nom nom" /></td>
+            <td>Peter Pettigrew</td>
+            <td>Rat</td>
+            <td><input type="button" name="" id="" value="Get" class="btn btn-success btn-lg"/></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <hr />
+<!-- ============Add a pet section======== -->
+    <div class="container">
+      <h2 class="col-md-4">Add Pet</h2>
+    </div>
+    <div class="container">
+      <form class="col-md-8" action="" method="post">
+        <div class="form-group">
+          <label>Photo</label>
+          <input type="text" class="form-control" value="" />
+        </div>
+        <div class="form-group">
+          <label>Name</label>
+          <input type="text" class="form-control" value="" />
+        </div>
+        <div class="form-group">
+          <label>Species</label>
+          <input type="text" class="form-control" value="" />
+        </div>
+        <button type="submit" class="btn btn-primary btn-lg">Save</button>
+      </form>
+    </div>
   </body>
 </html>
