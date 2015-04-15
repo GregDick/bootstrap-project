@@ -5,6 +5,13 @@ body{
   background-repeat: no-repeat;
 }
 
+.wrapper{
+  width: 88%;
+  margin-left: 10%;
+  margin-right: 2%;
+  margin-bottom: 100px;
+}
+
 img{
   height: 50px;
   width: 50px;
@@ -20,13 +27,15 @@ table thead{
 
 form{
   font-size: 1.5em;
+  padding: 15px 25px;
 }
 
 h1{
   font-size: 3em;
   background-color: rgb(194, 255, 173);
   color:#291400;
-  border: 15px solid #1D3900;
+  border: 15px double #1D3900;
+  border-bottom: 0;
   border-radius: 5px;
   margin-bottom: 0;
 }
@@ -37,24 +46,44 @@ h1{
  }
 
 .holds-table{
-  background-color: #E6FFE6;
-  opacity: 0.9;<D-r>
+   margin-right: 0;
+   background-color: #E6FFE6;
+   opacity: 0.9;
+   border-radius: 5px;
+   border: 15px double #1D3900;
+
 }
+
 
 h2{
   font-size: 2.5em;
   background-color: rgb(194, 255, 173);
   color:#291400;
-  border: 15px solid #1D3900;
+  border: 15px double #1D3900;
+  border-bottom: 0;
   border-radius: 5px;
   margin-bottom: 0;
+  margin-left: 15px;
 }
+
+hr{
+  color:rgb(194, 255, 173);
+  size: 15px;
+  border: 2.5px double rgb(194, 255, 173);
+  margin-top: 350px;
+  width: 100%;
+}
+
 
 .holds-add{
   background-color: #E6FFE6;
   opacity: 0.6;
-  padding-bottom: 10px;
+  padding: 10px;
   border-radius: 5px;
+  border: 15px double #1D3900;
+  width: 60%;
+  margin-left: 0;
+  margin-right: auto;
 }
 
 button{
