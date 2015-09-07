@@ -1,2 +1,2 @@
 # bootstrap-project
-My bootstrap project
+First project using bootstrap
